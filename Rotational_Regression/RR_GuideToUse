@@ -1,0 +1,20 @@
+    **** preprocessing ******
+1. First Rigg LBS for the same model
+2. Load "Identify_LBSVrt.py" in blender
+3. Load Training Meshes in blender
+4. Press "Error" button.
+   **************************
+1. Load Training meshes in blender
+2. Acctivate  "RR_RiggingTool_20190801(2).py" for Addon in blender
+3. Select all meshes and Press "Load mesh" button.
+or
+4. Run "RR_RiggingTool_Console_20190823.py" in Terminal
+   a. Go to Dropbox/My_PC/Skinning/
+   b. Activate Blender269 environment by "conda activate Blender269".
+   c. Run command: $python RRRiggingTool__Console_20190823.py  in terminal
+5. Activate "RR_AnimatingTool_20190823.py" Blaneder Addon
+6. Press "Load Ref" Button
+7. Edit skeleton 
+   a. Press "Edit pose" button after editing skeleton
+   c. Press "Twist" button after inserting value in twist angle
+
