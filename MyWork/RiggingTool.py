@@ -529,7 +529,7 @@ class RigAnimation(bpy.types.Operator):
             wghts=ComputeWeights(WghtMtrx,Vecs[3:,vc])        
             for i in range(num_JntPrVec):
                 r=IndSort[i]             
-                tmp=wghts[i]*((SrFrm[:,3*r:3*r+3].T).dot(Wtmp[:,3*r:3*r+3]))
+                tmp=wghts[i]*((SrFrm[:,4*r:4*r+3].T).dot(Wtmp[:,3*r:3*r+3]))
                 W[4*r:4*r+3,vc]=np.reshape(tmp.dot(Vecs[0:3,vc]),(3,1))
                 
         print("Computing Matrix.....")
